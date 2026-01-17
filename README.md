@@ -1,87 +1,91 @@
-# Welcome to React Router!
+# 📄 Resumind
 
-A modern, production-ready template for building full-stack React applications using React Router.
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+> AI-powered resume analysis to help job seekers stand out and land their dream job.
 
 ## Features
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+- ** AI-Powered Analysis** - Get intelligent, context-aware feedback using AI
+- ** ATS Compatibility Check** - Ensure your resume passes automated screening systems
+- ** Content Quality Review** - Feedback on achievements and impact statements
+- ** Structure Analysis** - Optimize your resume's organization and visual hierarchy
+- ** Skills Matching** - See how well your skills align with job requirements
+- ** Responsive Design** - Works seamlessly on desktop and mobile
 
-## Getting Started
+## Tech Stack
 
-### Installation
+- **Frontend**: React 19, React Router 7, TypeScript
+- **Styling**: Tailwind CSS 4
+- **Backend**: Puter.js (Auth, File Storage, KV Store)
+- **AI**: Antigravity AI
+- **Build Tool**: Vite
 
-Install the dependencies:
+## Installation
 
-```bash
-npm install
-```
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/ahmadalmuhidat/resumind.git
+   cd resumind
+   ```
 
-### Development
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-Start the development server with HMR:
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
 
-```bash
-npm run dev
-```
+4. **Open your browser**
+   ```
+   http://localhost:5173
+   ```
 
-Your application will be available at `http://localhost:5173`.
+## Usage
 
-## Building for Production
+1. **Sign In** - Authenticate with Puter
+2. **Upload Resume** - Drop your PDF resume and add job details
+3. **Get Analysis** - Receive AI-powered feedback instantly
+4. **Improve** - Follow actionable tips to enhance your resume
 
-Create a production build:
+## Environment
 
-```bash
-npm run build
-```
+This app uses [Puter.js](https://puter.com) for:
+- User authentication
+- File storage (resume PDFs and images)
+- Key-value storage (resume data)
+- AI chat (Claude integration)
 
-## Deployment
+No additional environment variables are required.
 
-### Docker Deployment
+## Contributing
 
-To build and run using Docker:
+We welcome contributions! Please see our contributing guidelines:
 
-```bash
-docker build -t my-app .
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-# Run the container
-docker run -p 3000:3000 my-app
-```
+### Coding Standards
 
-The containerized application can be deployed to any platform that supports Docker, including:
+- Follow ESLint configuration
+- Write meaningful commit messages
+- Add comments for complex logic
+- Update documentation as needed
 
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
+## License
 
-### DIY Deployment
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
+## Acknowledgments
 
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+- [Puter](https://puter.com/) for the cloud services
 
 ---
 
-Built with ❤️ using React Router.
+<p align="center">
+  Made with ❤️ by Ahmad Almuhidat
+</p>
